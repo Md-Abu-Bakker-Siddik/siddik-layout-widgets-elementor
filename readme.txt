@@ -9,202 +9,156 @@ Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Build stunning WordPress sites with 25+ free Elementor widgets for blogs, business pages, and landing sections. Upgrade to Pro for WooCommerce, portfolio, and advanced layouts.
+25+ free Elementor widgets for blogs, business pages, and landing sections. Pro add-on adds WooCommerce, portfolio, and advanced layouts.
 
 == Description ==
 
-**Siddik Layout Widgets for Elementor** gives you a solid free toolkit of Elementor widgets and layout controls — so you can design professional websites without touching code. Need WooCommerce shop widgets, portfolio/project post types, header/footer templates, and advanced blocks? Install the separate **Pro add-on** (not distributed on WordPress.org).
+**Siddik Layout Widgets for Elementor** adds a dedicated **Siddik Layout Widgets** category inside Elementor with ready-made blocks for homepages, blogs, and business sites — plus extra layout controls for sections, columns, and containers.
 
-Open Elementor, find the **Siddik Layout Widgets** category, drag a widget onto your page, customize colors and content, and publish. That is all it takes.
+No coding required: install the plugin, open Elementor, drag a widget, customize content and style, and publish.
 
-**Disclaimer:** This plugin is an independent third-party add-on. It is not affiliated with, endorsed by, or officially connected to Elementor or Elementor Ltd.
+**Disclaimer:** Independent third-party add-on. Not affiliated with, endorsed by, or officially connected to Elementor or Elementor Ltd.
+
+= Quick Start (5 Steps) =
+
+1. Install and activate the free [Elementor](https://wordpress.org/plugins/elementor/) plugin.
+2. Install and activate **Siddik Layout Widgets for Elementor**.
+3. Go to **Pages → Add New** (or edit an existing page) and click **Edit with Elementor**.
+4. In the left **Elements** panel, open the **Siddik Layout Widgets** category.
+5. Drag any widget onto the canvas, adjust settings in **Content** and **Style**, then click **Publish**.
+
+Tip: After activation, open **Siddik Layout Widgets → Getting Started** in your WordPress admin for a visual walkthrough.
+
+= How to Use a Widget =
+
+**Add a widget**
+Search or scroll in the **Siddik Layout Widgets** panel, then drag the block onto your page or inside a section/column.
+
+**Edit content**
+Use the **Content** tab for text, images, icons, links, repeater items (services, team members, slides, and so on).
+
+**Edit design**
+Use the **Style** tab for colors, typography, spacing, borders, and responsive settings (desktop, tablet, mobile).
+
+**Choose a layout**
+Many blocks — including Blog List, Service Block, Team Block, and Testimonial Block — support **grid**, **masonry**, or **carousel** modes in the widget settings.
+
+**Use Contact Form 7**
+Install [Contact Form 7](https://wordpress.org/plugins/contact-form-7/), create a form, then select it inside the **Contact Form 7** widget.
+
+= Layout Enhancements (Free) =
+
+Open any Elementor **Section**, **Column**, or **Container** and look for the **Siddik Layout Widgets** panel:
+
+* **Equal Height Columns** — match column heights in a row
+* **Custom Section/Container Width** — precise boxed max-width
+* **Stretched Background** — extend backgrounds edge-to-edge
+* **Curved Background** — SVG curved section backgrounds
+* **Column Flex Reverse** — reverse column order on mobile
+* **GSAP Clip Path Effects** — when your theme provides compatible GSAP scripts
+
+= Example: Free Homepage in Minutes =
+
+1. **Hero Slider** — main banner with headline and button
+2. **Features Block** — highlight key benefits
+3. **Service Block** — 3-column services grid
+4. **Testimonial Block** — reviews carousel
+5. **Counter Block** — stats and milestones
+6. **Contact Form 7** — lead capture at the bottom
+
+= Free vs PRO — What You Get =
+
+**FREE (this WordPress.org plugin)**
+
+| Category | Included |
+| Content blocks | Hero Slider, Blog List, Service Block, Team Block, Testimonial Block, Counter Block, Features Block, Theme Button |
+| Core widgets | Section Title, Button, Accordion, Tabs, Icon Box, Info Box, Social Links, Text Editor, List, Clients Logo, Funfact Counter, Progress Bar, Video Popup, Contact Form 7, Contact List, Blog |
+| Layout tools | Section, column, and container enhancements (equal height, custom width, curved background, and more) |
+| Requirements | WordPress 6.0+, PHP 7.4+, free Elementor 3.0+ |
+
+**PRO (separate add-on — not included here)**
+
+| Category | Included |
+| Marketing & media | Pricing Block, Pricing Plan, Countdown Timer, Image Gallery, Before/After Slider, Award Block, Working Block, Skill Block, Showcase Block, Moving Text, Interactive Tabs, and more |
+| Header & navigation | Site Logo, Page Title, Header Primary Nav, Header Nav Side Icons, Header Top Info |
+| Template parts | Reusable footer, mega menu, header top, page title, and side panel layouts with shortcodes |
+| Content types | Portfolio and Projects custom post types with archive templates |
+| WooCommerce shop | WC Products, Product Tabs, Product Category, Product List, Info Banner, Header Cart, Header Search, Wishlist, Vertical Menu, Account |
+| Extra utilities | Newsletter, Navigation Menu, Pie Chart, Language Switcher, parallax and animated layer widgets, and 50+ advanced blocks total |
+
+Install the free plugin first, then add **Siddik Layout Widgets PRO** to unlock premium widgets and template parts.
+
+= Free Widgets (Complete List) =
+
+**Marketing & content blocks**
+
+* **Hero Slider** — full-width sliders with headings, buttons, and carousel effects
+* **Blog List** — post grids, masonry, or carousel layouts
+* **Service Block** — services in grid, masonry, or carousel with icons
+* **Features Block** — feature highlights with multiple skins
+* **Testimonial Block** — client reviews in slider or grid layouts
+* **Team Block** — team profiles with photos, roles, and social links
+* **Counter Block** — animated number counters for statistics
+* **Theme Button** — styled call-to-action buttons
+
+**Essential Elementor widgets**
+
+* **Section Title**, **Button**, **Accordion**, **Tabs**, **Icon Box**, **Info Box**
+* **Social Links**, **Text Editor**, **List**, **Clients Logo**, **Funfact Counter**
+* **Progress Bar**, **Video Popup**, **Contact Form 7**, **Contact List**, **Blog**
+
+= PRO Add-on Highlights =
+
+The PRO plugin is sold separately and requires this free plugin. It is **not** bundled in the WordPress.org download.
+
+**Marketing & creative blocks**
+
+* Pricing Block, Pricing Plan, Pricing Plan Switcher
+* Countdown Timer, Image Gallery, Before/After Slider
+* Award Block, Working Block, Skill Block, Showcase Block
+* Moving Text, Circle Text, Spin Text Around Logo
+* Interactive Tabs, Interactive List, Vertical Image Slider
+
+**Header, footer & templates**
+
+* Site Logo, Page Title, Header Primary Nav, Header Nav Side Icons
+* Footer, Mega Menu, Header Top, Page Title, Side Panel template parts
+* Shortcodes: `[slwe_footer id="123"]`, `[slwe_megamenu id="456"]`, `[slwe_header_top id="789"]`, `[slwe_page_title id="101"]`, `[slwe_side_panel id="112"]`, `[slwe_template_part id="123"]`
+
+**Portfolio & projects (PRO)**
+
+* Portfolio and Projects custom post types
+* Projects widget with filters and archive layouts
+* Theme-independent single and archive fallback templates
+
+**WooCommerce shop widgets (PRO + WooCommerce)**
+
+* WC Products, Product List, Product Tabs, Product Category, Info Banner
+* Header Cart, Header Search, Wishlist, Vertical Menu, Account
+
+**How to use PRO template parts**
+
+1. Activate **Siddik Layout Widgets PRO** alongside this plugin.
+2. In WordPress admin, open **UAE Templates** (Footers, Mega Menus, and similar menus).
+3. Click **Add New**, design with Elementor, publish, and note the post **ID**.
+4. Place the shortcode on any page or inside Elementor's **Shortcode** widget.
 
 = Who Is This Plugin For? =
 
 * **Freelancers & agencies** building client sites with Elementor
-* **Bloggers & publishers** who want beautiful post grids and archive layouts
-* **Creative professionals** showcasing portfolio and project work
-* **Store owners** running WooCommerce shops with custom product layouts
-* **Beginners** who want pre-built sections instead of designing from scratch
-* **Developers** who need reusable headers, footers, and mega menus via shortcodes
-
-= What Can You Do With This Plugin? =
-
-* Design **full landing pages** with hero sliders, pricing tables, testimonials, and CTAs
-* Build **blog & magazine** layouts with grid, masonry, or carousel post lists
-* Create **portfolio & project** showcases with filters, galleries, and detail pages
-* Launch **WooCommerce stores** with product grids, tabs, cart icons, and shop headers
-* Craft **headers & footers** once and reuse them across your entire site
-* Add **animated sections** — counters, countdowns, before/after sliders, moving text
-* Extend Elementor **sections, columns & containers** with equal height, custom width, and curved backgrounds
-
-= Perfect For These Website Types =
-
-**Business & Agency Sites**
-Use Hero Slider, Service Block, Team Block, Testimonial Block, Pricing Plan, and Clients Logo to build trust and convert visitors into clients.
-
-**Blog & News Websites**
-Use Blog List widget with grid, masonry, or carousel layouts. Display categories, featured images, excerpts, and post meta beautifully.
-
-**Portfolio & Creative Studios**
-Use Projects widget, Image Gallery, Before/After Slider, Showcase Block, and built-in Portfolio/Project post types with archive templates.
-
-**Online Stores (WooCommerce)**
-Use WC Products, Product Tabs, Product Category, Header Cart, Header Search, Wishlist, and Vertical Menu to build a complete shop experience.
-
-**SaaS & App Landing Pages**
-Use Features Block, Pricing Block, Countdown Timer, App Button, Video Popup, and Interactive Tabs for modern product launches.
-
-**Corporate & Non-Profit**
-Use Contact Form 7, Newsletter, Funfact Counter, Award Block, Working Block, and Section Title for informative, professional pages.
-
-= Everything Included =
-
-**25+ Free Elementor Widgets** — organized under **Siddik Layout Widgets** in the Elementor panel.
-
-= Free Widgets Included =
-
-**Marketing & Content Blocks**
-
-* **Hero Slider** — Full-width homepage sliders with headings, buttons, and carousel effects
-* **Blog List** — Post grids, masonry, or carousel layouts
-* **Service Block** — Services in grid or carousel with icons and descriptions
-* **Features Block** — Highlight business features with multiple style skins
-* **Testimonial Block** — Client reviews in slider or grid layouts
-* **Team Block** — Team member profiles with photos, roles, and social links
-* **Counter Block** — Animated number counters for stats
-* **Theme Button** — Styled call-to-action buttons
-
-**Essential Elements**
-
-* **Section Title**, **Button**, **Accordion**, **Tabs**, **Icon Box**, **Info Box**
-* **Social Links**, **Text Editor**, **List**, **Clients Logo**, **Funfact Counter**
-* **Progress Bar**, **Video Popup**, **Contact Form 7**, **Contact List**
-* **Blog** — Blog post layouts for archives and listing pages
-
-= Pro Add-on (Separate Plugin) =
-
-The Pro add-on unlocks 50+ additional widgets including pricing tables, image galleries, header navigation, WooCommerce shop blocks, portfolio/project custom post types, and reusable header/footer/mega menu templates. Pro requires this free plugin and is sold separately — it is not included in the WordPress.org download.
-
-= Pro Features Overview =
-
-* **Pricing Block / Pricing Plan / Pricing Plan Switcher** — Pricing tables with monthly/yearly toggle
-* **Countdown Timer** — Build urgency for launches, sales, and events
-* **Award Block / Working Block / Skill Block / Showcase Block** — Process, skills, and featured work sections
-* **Image Gallery / Before/After Slider** — Galleries and image comparison sliders
-* **Moving Text / Circle Text / Spin Text Around Logo** — Animated typography effects
-* **Interactive Tabs / Interactive List** — Tabbed content and hover-reveal lists
-* **Vertical Image Slider / Swiper Carousel Arrow** — Advanced carousels
-* **Page Title / Site Logo / Header Nav widgets** — Header and navigation building blocks
-* **App Button / Projects Pre-Next** — App store CTAs and project navigation
-
-= Blog, Portfolio & Navigation (Pro) =
-
-* **Projects** — Custom project post type with archive layouts and filters
-* **Page Title** — Custom breadcrumb and page heading sections
-* **Site Logo** — Flexible logo widget for headers
-* **Header Primary Nav / Header Nav Side Icons** — Navigation menus with icon support
-
-= Core Utility Widgets (Pro) =
-
-* **Newsletter** — Mailchimp subscription forms
-* **Navigation Menu / Unordered List** — Custom menus and styled lists
-* **Text Editor Advanced** — Rich text with extra styling options
-* **Floating Objects / Animated Layers / Paroller Animation** — Motion and parallax effects
-* **Pie Chart / Rotated Text** — Visual data and creative typography
-* **Language Switcher** — Multilingual site language toggle
-* **Blank Box / Bg Angle Left Right** — Layout helpers and decorative backgrounds
-* **Image Background Text Effect / Image With Rotated Text** — Creative typography effects
-* **Vertical Bg Img List / Header Top Info** — Background lists and header info bars
-
-= WooCommerce Shop Widgets (Pro) =
-
-* **WC Products** — Product grids and carousels with sale, featured, and best-seller filters
-* **Product List** — Compact product lists for sidebars and narrow columns
-* **Product Tabs** — Tabbed product sections (Featured, On Sale, Best Sellers, etc.)
-* **Product Category** — WooCommerce category grids with images
-* **Info Banner** — Promotional shop banners with product highlights
-* **Header Cart** — Mini cart dropdown for shop headers
-* **Header Search** — AJAX product search for shop headers
-* **Wishlist** — Wishlist icon and page integration
-* **Vertical Menu** — Category sidebar menu for shop pages
-* **Account** — Customer account link for shop headers
-
-= Layout Enhancements for Elementor =
-
-Beyond widgets, this plugin adds powerful options directly inside Elementor's **Section**, **Column**, and **Container** settings:
-
-* **Equal Height Columns** — Make all columns in a row the same height automatically
-* **Custom Section/Container Width** — Set precise max-width for boxed layouts
-* **Stretched Background** — Extend background images beyond the container edge
-* **Curved Background** — Add curved SVG background shapes to containers
-* **Column Flex Reverse** — Reverse column order on mobile devices
-* **GSAP Clip Path Effects** — Advanced animation effects when your theme provides GSAP scripts
-
-Look for panels labeled **Siddik Layout Widgets** in the Elementor sidebar when editing any section, column, or container.
-
-= Reusable Template Parts (Pro) =
-
-Build headers, footers, mega menus, and more as reusable templates — then embed them anywhere with a simple shortcode.
-
-**Available Template Parts:**
-
-* **Footer** — `[slwe_footer id="123"]`
-* **Mega Menu** — `[slwe_megamenu id="456"]`
-* **Header Top Bar** — `[slwe_header_top id="789"]`
-* **Page Title Block** — `[slwe_page_title id="101"]`
-* **Side Push Panel** — `[slwe_side_panel id="112"]`
-* **Generic** — `[slwe_template_part id="123"]`
-
-**How to use template parts:**
-
-1. In WordPress admin, go to the template menu (e.g. **Footers** or **Mega Menus**)
-2. Click **Add New** and design your layout with Elementor
-3. Publish and copy the post **ID** from the admin list or URL
-4. Paste the shortcode anywhere — page content, widget area, or Elementor Shortcode widget
-
-= Built-in Custom Post Types =
-
-* **Portfolio** — Showcase creative work with categories, tags, and archive pages
-* **Projects** — Display project case studies with custom layouts
-* **Template Parts** — Footer, Mega Menu, Header Top, Page Title, Side Panel
-
-Theme-independent fallback templates are included for portfolio and project archives, so your content looks great even without a specialized theme.
-
-= How to Get Started =
-
-**Step 1 — Install Elementor**
-Make sure the free [Elementor](https://wordpress.org/plugins/elementor/) plugin is installed and activated.
-
-**Step 2 — Install This Plugin**
-Search for **Siddik Layout Widgets for Elementor** under **Plugins → Add New**, then click Install and Activate.
-
-**Step 3 — Open the Elementor Editor**
-Edit any page and click **Edit with Elementor**.
-
-**Step 4 — Find Your Widgets**
-In the left **Elements** panel, scroll to the **Siddik Layout Widgets** category. All free widgets are listed here.
-
-**Step 5 — Drag, Customize & Publish**
-Drag a widget onto your page, set your content and style options in the left panel, then click **Update** or **Publish**.
-
-= Example: Build a Homepage in Minutes =
-
-1. Add **Hero Slider** at the top for your main banner
-2. Add **Features Block** below to highlight your services
-3. Add **Service Block** in a 3-column grid
-4. Add **Testimonial Block** as a carousel for social proof
-5. Add **Pricing Plan** with the monthly/yearly switcher
-6. Add **Contact Form 7** at the bottom for leads
-
-Each widget includes layout options (grid, carousel, masonry), typography controls, color settings, and responsive options for tablet and mobile.
+* **Bloggers & publishers** who want post grids and archive layouts
+* **Small businesses** that need landing pages, services, and testimonials
+* **Beginners** who prefer drag-and-drop sections over custom code
+* **Store owners (PRO)** who want WooCommerce-ready shop widgets
+* **Creatives (PRO)** who showcase portfolio and project case studies
 
 = Requirements =
 
-* WordPress 6.0+
-* PHP 7.4+
-* Elementor 3.0+
-* WooCommerce *(optional — only for shop widgets)*
+* WordPress 6.0 or later
+* PHP 7.4 or later
+* Elementor 3.0 or later (free version works — Elementor Pro not required)
+* WooCommerce — optional; required only for PRO shop widgets
+* Contact Form 7 — optional; required only for the Contact Form 7 widget
 
 = Third-Party Resources =
 
@@ -270,18 +224,18 @@ Plugin-specific frontend scripts in `assets/js/` and widget styles in `assets/cs
 
 = First Steps After Activation =
 
-1. Create or edit any page
-2. Click **Edit with Elementor**
-3. In the left panel, find **Siddik Layout Widgets**
+1. Open **Siddik Layout Widgets → Getting Started** in the admin menu
+2. Create or edit any page and click **Edit with Elementor**
+3. Find the **Siddik Layout Widgets** category in the Elements panel
 4. Drag your first widget onto the page
 5. Configure content and style, then click **Publish**
 
-= Using WooCommerce Widgets =
+= Upgrading to PRO =
 
-1. Install and activate [WooCommerce](https://wordpress.org/plugins/woocommerce/)
-2. Shop widgets will automatically appear in the **Siddik Layout Widgets** category
-3. Use **WC Products** or **Product Tabs** on shop pages
-4. Add **Header Cart**, **Header Search**, and **Wishlist** to your shop header template
+1. Keep this free plugin active
+2. Install and activate **Siddik Layout Widgets PRO** (separate download)
+3. New widgets appear in the same **Siddik Layout Widgets** category
+4. Manage portfolio, projects, and template parts under **UAE Templates** in the admin menu
 
 == Frequently Asked Questions ==
 
@@ -289,45 +243,43 @@ Plugin-specific frontend scripts in `assets/js/` and widget styles in `assets/cs
 
 No. Elementor must be installed and activated. All widgets and layout options appear inside the Elementor editor.
 
+= Where do I find the widgets? =
+
+Edit any page with Elementor. In the left **Elements** panel, scroll to **Siddik Layout Widgets**. Free widgets are available immediately; PRO widgets appear after you install the PRO add-on.
+
+= What is free and what requires PRO? =
+
+**Free:** 25+ widgets (Hero Slider, Blog List, Team, Testimonial, Service, Features, Counter, Theme Button, Accordion, Tabs, Button, Icon Box, and more) plus section/column/container layout enhancements.
+
+**PRO:** WooCommerce shop widgets, portfolio and project post types, pricing and countdown blocks, header/footer/mega menu template parts, image galleries, and 50+ advanced widgets. See the **Free vs PRO** section above for the full breakdown.
+
 = Does this plugin work with any WordPress theme? =
 
-Yes. It works with any theme that supports Elementor. Portfolio and project archives include built-in fallback templates, so your content displays correctly even without theme-specific templates.
+Yes. It works with any theme that supports Elementor. PRO portfolio and project archives include built-in fallback templates.
 
 = Is WooCommerce required? =
 
-No. WooCommerce is completely optional. Shop widgets only appear when WooCommerce is installed and active. All other widgets work without it.
+No for the free plugin. WooCommerce is only needed if you use PRO shop widgets such as WC Products, Header Cart, or Product Tabs.
 
 = Is Elementor Pro required? =
 
-No. This plugin works with the free version of Elementor. Elementor Pro is not required.
-
-= Where do I find the widgets in Elementor? =
-
-Open any page with Elementor. In the left **Elements** panel, scroll down to the widget category named **Siddik Layout Widgets**. Free widgets are listed there; install Pro to unlock the full library.
+No. This plugin works with the free version of Elementor.
 
 = Can I use grid, masonry, and carousel layouts? =
 
-Yes. Most free content widgets — including Blog List, Team Block, Testimonial Block, and Service Block — include layout mode options in the widget settings. Switch between grid, masonry, and carousel without any coding. Portfolio, Projects, and WooCommerce widgets require the Pro add-on.
+Yes. Blog List, Service Block, Team Block, Testimonial Block, and similar widgets include layout mode options in the widget settings.
 
 = How do I add a custom footer or mega menu? =
 
-1. Go to **Footers** or **Mega Menus** in your WordPress admin menu
-2. Create a new template and design it with Elementor
-3. Note the template ID number
-4. Add the shortcode to your page: `[slwe_footer id="YOUR_ID"]` or `[slwe_megamenu id="YOUR_ID"]`
-5. You can also place shortcodes inside Elementor's **Shortcode** widget
-
-= Can I use multiple template parts on one site? =
-
-Yes. Create as many footers, mega menus, header tops, and page titles as you need. Each gets its own ID and shortcode.
+This requires **Siddik Layout Widgets PRO**. Create a template under **UAE Templates**, design it with Elementor, copy the post ID, and use a shortcode such as `[slwe_footer id="YOUR_ID"]` or `[slwe_megamenu id="YOUR_ID"]`.
 
 = Does this plugin slow down my website? =
 
-The plugin only loads scripts and styles for widgets that are actually used on each page. Unused widget assets are not loaded on the frontend.
+Scripts and styles load only for widgets used on each page. Unused widget assets are not loaded on the frontend.
 
 = Is the plugin translation ready? =
 
-Yes. All strings use the `siddik-layout-widgets-elementor` text domain. A `.pot` translation template is included in the `languages/` folder for translators.
+Yes. All strings use the `siddik-layout-widgets-elementor` text domain. A `.pot` file is included in the `languages/` folder.
 
 = Is this an official Elementor plugin? =
 
@@ -335,14 +287,14 @@ No. Siddik Layout Widgets for Elementor is developed independently by Md Abu Bak
 
 = How do I get support? =
 
-Visit the [Support Forum](https://wordpress.org/support/plugin/siddik-layout-widgets-elementor/) on WordPress.org to ask questions or report issues.
+Visit the [Support Forum](https://wordpress.org/support/plugin/siddik-layout-widgets-elementor/) on WordPress.org.
 
 == Screenshots ==
 
-1. Free widgets organized under the Siddik Layout Widgets category in the Elementor editor.
-2. Blog List widget on the frontend — grid, masonry, or carousel layouts with multiple design skins.
-3. Hero Slider, Service Block, Team Block, and Testimonial Block for business landing pages.
-4. Elementor section and column enhancements from Siddik Layout Widgets.
+1. Siddik Layout Widgets category in the Elementor Elements panel.
+2. Blog List widget on the frontend with grid, masonry, or carousel layouts.
+3. Hero Slider, Service Block, Team Block, and Testimonial Block on a business homepage.
+4. Section, column, and container layout enhancements in Elementor settings.
 
 == Changelog ==
 
