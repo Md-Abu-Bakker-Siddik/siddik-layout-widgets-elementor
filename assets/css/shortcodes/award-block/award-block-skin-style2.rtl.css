@@ -1,0 +1,101 @@
+.award-block-current-item-style2 {
+  position: relative;
+  padding: 40px 50px 40px 60px;
+  position: relative;
+  background: rgba(21, 21, 21, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(25px);
+  border-radius: 0 40px 40px 0;
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 1199.98px) {
+  .award-block-current-item-style2 {
+    margin: 0 40px 0 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .award-block-current-item-style2 {
+    margin: 0 0 0 0;
+  }
+}
+.award-block-current-item-style2:hover {
+  background: var(--theme-color1);
+}
+.award-block-current-item-style2:hover .content {
+  border-color: rgba(21, 21, 21, 0.2);
+}
+.award-block-current-item-style2:hover .content .award-title {
+  color: var(--theme-color1-text-color);
+}
+.award-block-current-item-style2:hover .content .bottom .year {
+  color: var(--theme-color1-text-color);
+}
+.award-block-current-item-style2:hover .content .bottom .award-brand-image img {
+  filter: brightness(0);
+}
+.award-block-current-item-style2:hover .rr-hover-reveal-bg, .award-block-current-item-style2.active .rr-hover-reveal-bg {
+  opacity: 1;
+  transform: scale(1);
+}
+.award-block-current-item-style2:hover .award-featured-img, .award-block-current-item-style2.active .award-featured-img {
+  opacity: 1;
+}
+.award-block-current-item-style2 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 767.98px) {
+  .award-block-current-item-style2 .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.award-block-current-item-style2 .content .award-title {
+  color: #fff;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.award-block-current-item-style2 .content .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media (max-width: 767.98px) {
+  .award-block-current-item-style2 .content .bottom {
+    align-items: center;
+  }
+}
+.award-block-current-item-style2 .content .bottom .year {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.award-block-current-item-style2 .content .bottom .award-brand-image img {
+  transition: all 0.2s ease-in-out;
+}
+.award-block-current-item-style2 .award-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  margin: -50px -80px 0 0;
+  z-index: 3;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: opacity 0.3s, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) scale(0, 0), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transition: opacity 0.3s, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) scale(0, 0), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -ms-transition: opacity 0.3s, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) scale(0, 0), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: opacity 0.3s, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) scale(0, 0), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: opacity 0.3s, transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) scale(0, 0), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.award-block-current-item-style2 .award-image img {
+  border-radius: 10px;
+}

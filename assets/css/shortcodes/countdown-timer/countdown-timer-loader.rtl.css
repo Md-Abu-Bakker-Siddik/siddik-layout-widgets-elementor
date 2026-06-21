@@ -1,0 +1,356 @@
+.countdown-timer-default .countdown-timer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.countdown-timer-default .countdown-timer .counter {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 120px;
+  height: 140px;
+  font-size: 14px;
+  line-height: 2em;
+  color: #797f7d;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  z-index: 7;
+  letter-spacing: 0.01em;
+  border-radius: 20px;
+  padding: 10px 0 0;
+  margin: 0;
+  background: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.countdown-timer-default .countdown-timer .counter .value {
+  font-family: var(--heading-font-family);
+  position: relative;
+  display: block;
+  font-size: 42px;
+  line-height: 30px;
+  color: var(--theme-color1);
+  margin-bottom: 10px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.countdown-timer-default .countdown-timer .counter .label {
+  font-size: 1.2rem;
+  color: #111c16;
+  text-transform: capitalize;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.countdown-timer-style1 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 575.98px) {
+  .countdown-timer-style1 .countdown-timer {
+    flex-direction: column;
+  }
+}
+.countdown-timer-style1 .countdown-timer .counter {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-width: 230px;
+  padding: 0 32px;
+}
+@media (max-width: 991.98px) {
+  .countdown-timer-style1 .countdown-timer .counter {
+    justify-content: center;
+    min-width: 190px;
+  }
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style1 .countdown-timer .counter {
+    min-width: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .countdown-timer-style1 .countdown-timer .counter {
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.countdown-timer-style1 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style1 .countdown-timer .counter .value {
+    font-size: 60px;
+  }
+}
+.countdown-timer-style1 .countdown-timer .counter .label {
+  position: relative;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+  opacity: 0.7;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style1 .countdown-timer .counter .label {
+    font-size: 16px;
+  }
+}
+
+.countdown-timer-style2 {
+  text-align: center;
+}
+.countdown-timer-style2 .countdown-timer {
+  border: 1px solid #4c4c4c;
+  border-radius: 300px;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 575.98px) {
+  .countdown-timer-style2 .countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.countdown-timer-style2 .countdown-timer .counter {
+  position: relative;
+  max-width: 250px;
+  width: 100%;
+  padding: 0 32px;
+  border-right: 1px solid #d6d6d6;
+}
+@media (max-width: 575.98px) {
+  .countdown-timer-style2 .countdown-timer .counter {
+    border-right: 0;
+  }
+}
+.countdown-timer-style2 .countdown-timer .counter:first-child {
+  border-right: 0;
+}
+@media (max-width: 991.98px) {
+  .countdown-timer-style2 .countdown-timer .counter {
+    min-width: auto;
+  }
+}
+@media (max-width: 575.98px) {
+  .countdown-timer-style2 .countdown-timer .counter {
+    padding: 20px 0;
+  }
+}
+.countdown-timer-style2 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style2 .countdown-timer .counter .value {
+    font-size: 50px;
+  }
+}
+.countdown-timer-style2 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style2 .countdown-timer .counter .label {
+    font-size: 16px;
+  }
+}
+
+.countdown-timer-style3 {
+  position: relative;
+  border: 1px solid var(--headings-color);
+  background-color: #fff;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 {
+    padding: 50px 0 40px;
+  }
+}
+.countdown-timer-style3 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 .countdown-timer {
+    flex-direction: column;
+  }
+}
+.countdown-timer-style3 .countdown-timer .counter {
+  position: relative;
+  min-width: 250px;
+  padding: 60px 32px;
+  border-right: 1px solid var(--headings-color);
+}
+.countdown-timer-style3 .countdown-timer .counter:first-child {
+  border-right: 0;
+}
+@media (max-width: 991.98px) {
+  .countdown-timer-style3 .countdown-timer .counter {
+    min-width: 190px;
+  }
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 .countdown-timer .counter {
+    min-width: auto;
+    padding: 20px 0;
+    border-right: 0;
+  }
+}
+.countdown-timer-style3 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+.countdown-timer-style3 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+}
+
+.countdown-timer-style4 {
+  position: relative;
+}
+.countdown-timer-style4 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.countdown-timer-style4 .countdown-timer .counter {
+  position: relative;
+  background-color: #f7f7f7;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.countdown-timer-style4 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+}
+.countdown-timer-style4 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+}
+
+.countdown-timer-style5 {
+  margin-bottom: 60px;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style5 {
+    margin-bottom: 0;
+  }
+}
+.countdown-timer-style5 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style5 .countdown-timer {
+    flex-direction: column;
+  }
+}
+.countdown-timer-style5 .countdown-timer .counter {
+  padding: 0 30px;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style5 .countdown-timer .counter {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+}
+.countdown-timer-style5 .countdown-timer .counter:last-child {
+  padding-left: 0;
+}
+.countdown-timer-style5 .countdown-timer .counter:last-child .value:before {
+  display: none;
+}
+.countdown-timer-style5 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-size: 72px;
+  color: #c5c5c5;
+  margin-bottom: 15px;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+}
+.countdown-timer-style5 .countdown-timer .counter .value:before {
+  position: absolute;
+  left: -38px;
+  top: 0;
+  font-size: 52px;
+  content: ":";
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style5 .countdown-timer .counter .value:before {
+    display: none;
+  }
+}
+.countdown-timer-style5 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-size: 18px;
+  color: var(--headings-color);
+}

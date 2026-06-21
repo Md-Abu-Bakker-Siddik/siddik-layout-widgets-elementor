@@ -1,0 +1,17 @@
+.spin-text-around-logo {
+  position: relative;
+  display: inline-block;
+}
+.spin-text-around-logo .letter {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  line-height: 1em;
+  font-size: 110px;
+  color: var(--theme-color-dark);
+  font-weight: 700;
+}
+.spin-text-around-logo img {
+  animation: fa-spin 30s infinite linear;
+}

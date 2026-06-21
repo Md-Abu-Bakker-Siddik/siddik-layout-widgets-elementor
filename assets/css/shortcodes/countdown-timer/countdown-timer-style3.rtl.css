@@ -1,0 +1,59 @@
+.countdown-timer-style3 {
+  position: relative;
+  border: 1px solid var(--headings-color);
+  background-color: #fff;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 {
+    padding: 50px 0 40px;
+  }
+}
+.countdown-timer-style3 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 .countdown-timer {
+    flex-direction: column;
+  }
+}
+.countdown-timer-style3 .countdown-timer .counter {
+  position: relative;
+  min-width: 250px;
+  padding: 60px 32px;
+  border-right: 1px solid var(--headings-color);
+}
+.countdown-timer-style3 .countdown-timer .counter:first-child {
+  border-right: 0;
+}
+@media (max-width: 991.98px) {
+  .countdown-timer-style3 .countdown-timer .counter {
+    min-width: 190px;
+  }
+}
+@media (max-width: 767.98px) {
+  .countdown-timer-style3 .countdown-timer .counter {
+    min-width: auto;
+    padding: 20px 0;
+    border-right: 0;
+  }
+}
+.countdown-timer-style3 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+}
+.countdown-timer-style3 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+}

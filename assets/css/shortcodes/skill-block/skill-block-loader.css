@@ -1,0 +1,101 @@
+.tm-sc-working .icon {
+  display: inline-block;
+}
+.tm-sc-working .icon,
+.tm-sc-working .working-title,
+.tm-sc-working .working-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.tm-sc-working .icon {
+  display: inline-block;
+}
+.tm-sc-working .icon,
+.tm-sc-working .working-title,
+.tm-sc-working .working-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 90deg;
+  inherits: false;
+}
+@keyframes rotate {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+.skill-block-style1 {
+  position: relative;
+}
+.skill-block-style1 .inner-box {
+  position: relative;
+  padding: 30px;
+  max-width: 190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 190px;
+  border-radius: 50%;
+  background-color: var(--theme-color2);
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  transition: all 300ms ease;
+}
+.skill-block-style1 .inner-box::after, .skill-block-style1 .inner-box::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  inset: -0.4rem;
+  background: conic-gradient(from var(--gradient-angle), var(--theme-color2), var(--theme-color1), var(--theme-color2));
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  border-radius: inherit;
+  animation: rotate 2.5s linear infinite;
+  transition: all 300ms ease;
+}
+.skill-block-style1 .inner-box::after {
+  filter: blur(1rem);
+}
+.skill-block-style1 .inner-box.active::after, .skill-block-style1 .inner-box.active::before, .skill-block-style1 .inner-box:hover::after, .skill-block-style1 .inner-box:hover::before {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.skill-block-style1 .inner-box.active .skill-title, .skill-block-style1 .inner-box:hover .skill-title {
+  color: var(--theme-color1);
+}
+.skill-block-style1 .inner-box:hover img {
+  transition: all 900ms ease;
+  transform: rotateY(360deg);
+}
+.skill-block-style1 .icon {
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+.skill-block-style1 .icon img {
+  transition: all 900ms ease;
+}
+.skill-block-style1 .skill-count {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 15px;
+  transition: all 300ms ease;
+}
+.skill-block-style1 .skill-title {
+  color: #9d9d9d;
+  transition: all 300ms ease;
+  margin-bottom: 0;
+}

@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "FlaticonSetLandscaping";
+    src: url("fonts/flaticon-set-landscaping.woff2") format("woff2"),
+url("fonts/flaticon-set-landscaping.woff") format("woff"),
+url("fonts/flaticon-set-landscaping.eot") format("embedded-opentype"),
+url("fonts/flaticon-set-landscaping.ttf") format("truetype"),
+url("fonts/flaticon-set-landscaping.svg") format("svg")
+}
+
+i[class^="flaticon-set-"]:before, i[class*=" flaticon-set-"]:before {
+    font-family: FlaticonSetLandscaping !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-set-planning:before {
+    content: "\f101";
+}
+.flaticon-set-landscape:before {
+    content: "\f102";
+}
+.flaticon-set-park:before {
+    content: "\f103";
+}
+.flaticon-set-trees:before {
+    content: "\f104";
+}
+.flaticon-set-planing:before {
+    content: "\f105";
+}
+.flaticon-set-gardening:before {
+    content: "\f106";
+}
+.flaticon-set-gardening-1:before {
+    content: "\f107";
+}
+.flaticon-set-trimming:before {
+    content: "\f108";
+}
+.flaticon-set-flowers:before {
+    content: "\f109";
+}
+.flaticon-set-gardening-2:before {
+    content: "\f10a";
+}
+.flaticon-set-gardener:before {
+    content: "\f10b";
+}
+.flaticon-set-pruning-shears:before {
+    content: "\f10c";
+}
+.flaticon-set-lawn-mower:before {
+    content: "\f10d";
+}
+.flaticon-set-zen-stones:before {
+    content: "\f10e";
+}
+.flaticon-set-wheelbarrow:before {
+    content: "\f10f";
+}
+.flaticon-set-gardening-tools:before {
+    content: "\f110";
+}
+.flaticon-set-basket:before {
+    content: "\f111";
+}
+.flaticon-set-pruning-shears-1:before {
+    content: "\f112";
+}
+.flaticon-set-lawn-mower-1:before {
+    content: "\f113";
+}
+.flaticon-set-gardening-3:before {
+    content: "\f114";
+}
+.flaticon-set-fertilizer:before {
+    content: "\f115";
+}
+.flaticon-set-gardening-tool:before {
+    content: "\f116";
+}
+.flaticon-set-harvester:before {
+    content: "\f117";
+}
+.flaticon-set-herbicide:before {
+    content: "\f118";
+}
+.flaticon-set-glove:before {
+    content: "\f119";
+}
+.flaticon-set-yard:before {
+    content: "\f11a";
+}
+.flaticon-set-broom:before {
+    content: "\f11b";
+}
+.flaticon-set-swamp:before {
+    content: "\f11c";
+}
+.flaticon-set-trees-1:before {
+    content: "\f11d";
+}
+.flaticon-set-flower:before {
+    content: "\f11e";
+}
+.flaticon-set-butterflies:before {
+    content: "\f11f";
+}
+.flaticon-set-gardening-4:before {
+    content: "\f120";
+}
+.flaticon-set-planting:before {
+    content: "\f121";
+}
+.flaticon-set-path:before {
+    content: "\f122";
+}
+.flaticon-set-watering-can:before {
+    content: "\f123";
+}
+.flaticon-set-park-1:before {
+    content: "\f124";
+}
+.flaticon-set-farm-house:before {
+    content: "\f125";
+}
+.flaticon-set-park-2:before {
+    content: "\f126";
+}
+.flaticon-set-shovel:before {
+    content: "\f127";
+}
+.flaticon-set-pruning-shears-2:before {
+    content: "\f128";
+}
+

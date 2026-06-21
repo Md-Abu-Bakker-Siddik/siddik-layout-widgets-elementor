@@ -1,0 +1,74 @@
+.tm-absolute-content, .showcase-block-style1 .inner-box .showcase-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.showcase-block-style1 .inner-box {
+  text-align: center;
+}
+.showcase-block-style1 .inner-box .showcase-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(137, 151, 186, 0.25);
+  margin-bottom: 22px;
+}
+.showcase-block-style1 .inner-box .showcase-image:before {
+  background-color: #1C2539;
+  transition: all 250ms linear 0ms;
+  opacity: 0;
+}
+.showcase-block-style1 .inner-box .showcase-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  z-index: 99;
+  text-align: center;
+}
+.showcase-block-style1 .inner-box .showcase-buttons .btn {
+  color: #fff;
+  line-height: 44px;
+  padding: 0 22px;
+  font-size: 15px;
+  min-width: 125px;
+}
+.showcase-block-style1 .inner-box .showcase-buttons .showcase-button {
+  opacity: 0;
+  transition: all 250ms linear 0ms;
+}
+.showcase-block-style1 .inner-box .showcase-buttons .showcase-button:nth-child(1) {
+  transform: translateY(-20px);
+}
+.showcase-block-style1 .inner-box .showcase-buttons .showcase-button:nth-child(2) {
+  transform: translateY(20px);
+}
+.showcase-block-style1 .inner-box .showcase-buttons .showcase-button + .showcase-button {
+  margin-top: 12px;
+}
+.showcase-block-style1 .inner-box .showcase-title {
+  font-size: 17px;
+  margin-bottom: 0;
+  color: #1C2539;
+}
+.showcase-block-style1 .inner-box .showcase-title a {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+.showcase-block-style1 .inner-box:hover .showcase-buttons .showcase-button, .showcase-block-style1 .inner-box.item-active .showcase-buttons .showcase-button {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showcase-block-style1 .inner-box:hover .showcase-image:before, .showcase-block-style1 .inner-box.item-active .showcase-image:before {
+  opacity: 0.76;
+}

@@ -1,0 +1,60 @@
+.elementor-widget-tm-ele-moving-text {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: var(--alignment, left);
+  letter-spacing: 0.3em;
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text {
+  transform: rotate(var(--rotate, 0));
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text > svg {
+  width: var(--width);
+  height: auto;
+  overflow: visible;
+  word-spacing: var(--word-spacing);
+  transform: scaleX(var(--scale-x, 1)) scaleY(var(--scale-y, 1));
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text > svg path {
+  vector-effect: non-scaling-stroke;
+  fill: var(--path-fill, transparent);
+  stroke: var(--stroke-color, transparent);
+  stroke-width: var(--stroke-width, 1px);
+  transition: var(--stroke-transition) stroke, var(--stroke-transition) fill;
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text > svg:hover path {
+  --path-fill: var(--path-fill-hover);
+  --stroke-color: var(--stroke-color-hover);
+  --stroke-width: var(--stroke-width-hover);
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text > svg text {
+  fill: var(--bili-primary-color);
+  transition: var(--transition) stroke, var(--transition) stroke-width, var(--transition) fill;
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text > svg text:hover {
+  fill: var(--bili-primary-color);
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text[data-type-svg=uae_line_simple] {
+  overflow: hidden;
+}
+.elementor-widget-tm-ele-moving-text .tm-moving-text.rotate_circle svg {
+  animation-name: wgl-rotation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.elementor-widget-tm-ele-moving-text .simple_line {
+  white-space: nowrap;
+  width: var(--width);
+  margin: 0 auto;
+}
+.elementor-widget-tm-ele-moving-text .simple_line .text--word {
+  display: inline-block;
+}
+.elementor-widget-tm-ele-moving-text .simple_line .text--word .text {
+  word-spacing: var(--word-spacing);
+  transition: all var(--transition);
+}
+.elementor-widget-tm-ele-moving-text .simple_line .divider {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}

@@ -1,0 +1,146 @@
+.tm-sc-vertical-image-slider {
+  position: relative;
+  overflow: hidden;
+}
+.tm-sc-vertical-image-slider.slider-direction-vertical .tm-vertical-image-slider-wrapper {
+  height: 80vh;
+  width: 100%;
+}
+.tm-sc-vertical-image-slider.slider-direction-horizontal .tm-vertical-image-slider-wrapper {
+  height: auto;
+  width: 100%;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-wrapper {
+  position: relative;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-wrapper .swiper {
+  height: 100%;
+  width: 100%;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-wrapper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-wrapper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+  z-index: 2;
+}
+.tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper .slider-title {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.tm-sc-vertical-image-slider.hover-effect-zoom .tm-vertical-image-slider-item:hover .slider-image img {
+  transform: scale(1.1);
+}
+.tm-sc-vertical-image-slider.hover-effect-zoom-out .slider-image img {
+  transform: scale(1.1);
+}
+.tm-sc-vertical-image-slider.hover-effect-zoom-out .tm-vertical-image-slider-item:hover .slider-image img {
+  transform: scale(1);
+}
+.tm-sc-vertical-image-slider.hover-effect-grayscale .slider-image img {
+  filter: grayscale(100%);
+}
+.tm-sc-vertical-image-slider.hover-effect-grayscale .tm-vertical-image-slider-item:hover .slider-image img {
+  filter: grayscale(0%);
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlays {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlay {
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlay.tm-gradient-overlay-left {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: var(--gradient-size, 30%);
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlay.tm-gradient-overlay-right {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: var(--gradient-size, 30%);
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlay.tm-gradient-overlay-top {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: var(--gradient-size, 30%);
+}
+.tm-sc-vertical-image-slider .tm-gradient-overlay.tm-gradient-overlay-bottom {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: var(--gradient-size, 30%);
+}
+
+@media (max-width: 991px) {
+  .tm-sc-vertical-image-slider.slider-direction-vertical .tm-vertical-image-slider-wrapper {
+    height: 60vh;
+  }
+  .tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper {
+    padding: 15px;
+  }
+  .tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper .slider-title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .tm-sc-vertical-image-slider.slider-direction-vertical .tm-vertical-image-slider-wrapper {
+    height: 50vh;
+  }
+  .tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper {
+    padding: 10px;
+  }
+  .tm-sc-vertical-image-slider .tm-vertical-image-slider-item .slider-title-wrapper .slider-title {
+    font-size: 14px;
+  }
+}

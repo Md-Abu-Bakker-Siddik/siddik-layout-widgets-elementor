@@ -1,0 +1,80 @@
+.uae-language-switcher ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.uae-language-switcher span {
+  color: #737474;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.uae-language-switcher .language-switcher-head i {
+  font-weight: 700;
+  font-size: 8px;
+  margin-left: 5px;
+}
+.uae-language-switcher a {
+  display: block;
+}
+.uae-language-switcher img {
+  display: inline-block;
+  margin-right: 5px;
+}
+.uae-language-switcher .item > div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.uae-language-switcher .item > div img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.uae-language-switcher .sub-item {
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  text-align: left;
+  top: calc(100% + 1rem);
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+.uae-language-switcher .sub-item:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1rem;
+  top: -1rem;
+}
+.uae-language-switcher .sub-item li {
+  padding: 0;
+}
+.uae-language-switcher .sub-item a {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  min-width: 126px;
+  white-space: nowrap;
+}
+.uae-language-switcher .sub-item a:hover, .uae-language-switcher .sub-item a:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.uae-language-switcher li.item {
+  position: relative;
+}
+.uae-language-switcher li.item > div span.title:after {
+  margin-left: 0.5em;
+  margin-top: -1px;
+}
+.uae-language-switcher li.item:hover .sub-item {
+  display: block;
+}
+
+.language-switcher-style-hover-right-yes .uae-language-switcher .sub-item {
+  right: 0;
+  left: unset;
+}

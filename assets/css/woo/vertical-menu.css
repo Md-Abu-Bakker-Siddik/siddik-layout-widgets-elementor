@@ -1,0 +1,198 @@
+.vertical-navigation {
+  position: relative;
+  background-color: var(--theme-color2);
+  height: 100%;
+  border-radius: 0;
+  transition: all 0.1s ease;
+}
+.vertical-navigation .vertical-navigation-header {
+  font-size: 14px;
+  padding: 16px 25px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.vertical-navigation .vertical-navigation-header i {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 1;
+  margin-right: 15px;
+}
+.vertical-navigation .vertical-navigation-header .vertical-navigation-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1;
+}
+.vertical-navigation .vertical-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.vertical-navigation .vertical-menu .menu {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  border: 1px solid #f2f2f2;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 10px 0;
+}
+.vertical-navigation .vertical-menu .menu > li > a {
+  position: relative;
+  padding: 8px 25px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+.vertical-navigation .vertical-menu .menu > li.has-mega-menu > a:after, .vertical-navigation .vertical-menu .menu > li.menu-item-has-children > a:after {
+  font-family: "linearicons-free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  content: "\e876";
+  font-size: 12px;
+  color: #333;
+  float: right;
+  margin-left: auto;
+}
+.vertical-navigation:hover {
+  border-radius: 8px 8px 0 0 !important;
+}
+.vertical-navigation:hover .vertical-menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99;
+  transform: translateY(0);
+}
+.vertical-navigation ul.menu {
+  list-style: none;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+.vertical-navigation ul.menu .dropdown {
+  position: absolute;
+  padding: 13px 0;
+  left: 100%;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  list-style: none;
+  margin: 0;
+  background: #fff;
+  width: 260px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.07);
+}
+.vertical-navigation ul.menu .dropdown > li {
+  padding: 8px 20px 8px 25px;
+}
+.vertical-navigation ul.menu .dropdown > li > a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.vertical-navigation ul.menu .dropdown > li > a:before {
+  content: "";
+  width: 9px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 0;
+  opacity: 0;
+}
+.vertical-navigation ul.menu .dropdown > li:hover > a {
+  padding-left: 15px;
+}
+.vertical-navigation ul.menu .dropdown > li:hover > a:before {
+  opacity: 1;
+}
+.vertical-navigation ul.menu > li {
+  position: relative;
+}
+.vertical-navigation ul.menu > li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(100% - 50px);
+  height: 1px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+  border-bottom: 1px solid var(--border);
+}
+.vertical-navigation ul.menu > li:last-child:before {
+  display: none;
+}
+.vertical-navigation ul.menu > li > a {
+  padding: 0 26px;
+  line-height: 42px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.vertical-navigation ul.menu > li > a .menu-icon {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #b8b8b8;
+}
+.vertical-navigation ul.menu > li:hover > .dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+.vertical-navigation ul.menu > li:hover > a:after {
+  color: var(--primary) !important;
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item, .vertical-navigation.menu-item-has-children .elementor-icon-list-item {
+  padding: 8px 20px 8px 25px;
+  transition: all 0.3s ease;
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item:before, .vertical-navigation.menu-item-has-children .elementor-icon-list-item:before {
+  content: "";
+  width: 9px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 25px;
+  opacity: 0;
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item .elementor-icon-list-text, .vertical-navigation.menu-item-has-children .elementor-icon-list-item .elementor-icon-list-text {
+  color: var(--accent);
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item:hover, .vertical-navigation.menu-item-has-children .elementor-icon-list-item:hover {
+  padding-left: 40px;
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item:hover:before, .vertical-navigation.menu-item-has-children .elementor-icon-list-item:hover:before {
+  opacity: 1;
+}
+.vertical-navigation .has-mega-menu .elementor-icon-list-item:hover .elementor-icon-list-text, .vertical-navigation.menu-item-has-children .elementor-icon-list-item:hover .elementor-icon-list-text {
+  color: var(--primary);
+}
+
+.nav-vertiacl-menu-layout-content-style-2 .elementor-nav-vertiacl-menu-wrapper .vertical-navigation .vertical-menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 990;
+}

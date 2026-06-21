@@ -1,0 +1,10 @@
+.counter-item-style1 .counter {
+  font-size: 120px;
+  font-weight: 500;
+  color: var(--theme-color3);
+  margin: 0;
+}
+.counter-item-style1 .title {
+  color: var(--theme-color2);
+  margin: 0;
+}

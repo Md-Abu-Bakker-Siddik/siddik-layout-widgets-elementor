@@ -1,0 +1,197 @@
+﻿/**
+ * Shared isotope grid/masonry and carousel layout rules for Siddik Layout Widgets for Elementor.
+ */
+
+.isotope-layout:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.isotope-layout .isotope-layout-inner {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.isotope-layout .isotope-item {
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.isotope-layout .isotope-item-sizer {
+  padding: 0;
+  height: 0;
+  min-height: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.isotope-layout.gutter .isotope-layout-inner {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.isotope-layout.gutter .isotope-item {
+  padding: 15px;
+}
+
+.isotope-layout.gutter-0 .isotope-layout-inner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.isotope-layout.gutter-0 .isotope-item {
+  padding: 0;
+}
+
+.isotope-layout.gutter-2 .isotope-layout-inner {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.isotope-layout.gutter-2 .isotope-item {
+  padding: 1px;
+}
+
+.isotope-layout.gutter-5 .isotope-layout-inner {
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+}
+
+.isotope-layout.gutter-5 .isotope-item {
+  padding: 2.5px;
+}
+
+.isotope-layout.gutter-10 .isotope-layout-inner {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.isotope-layout.gutter-10 .isotope-item {
+  padding: 5px;
+}
+
+.isotope-layout.gutter-15 .isotope-layout-inner {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.isotope-layout.gutter-15 .isotope-item {
+  padding: 7.5px;
+}
+
+.isotope-layout.gutter-20 .isotope-layout-inner {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.isotope-layout.gutter-20 .isotope-item {
+  padding: 10px;
+}
+
+.isotope-layout.gutter-30 .isotope-layout-inner {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.isotope-layout.gutter-30 .isotope-item {
+  padding: 15px;
+}
+
+.isotope-layout.gutter-40 .isotope-layout-inner {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.isotope-layout.gutter-40 .isotope-item {
+  padding: 20px;
+}
+
+.isotope-layout.gutter-50 .isotope-layout-inner {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.isotope-layout.gutter-50 .isotope-item {
+  padding: 25px;
+}
+
+.isotope-layout.gutter-60 .isotope-layout-inner {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.isotope-layout.gutter-60 .isotope-item {
+  padding: 30px;
+}
+
+.isotope-layout.grid-1 .isotope-item,
+.isotope-layout.grid-1 .isotope-item-sizer,
+.isotope-layout.grid-1col .isotope-item,
+.isotope-layout.grid-1col .isotope-item-sizer {
+  width: 100%;
+}
+
+.isotope-layout.grid-2 .isotope-item,
+.isotope-layout.grid-2 .isotope-item-sizer,
+.isotope-layout.grid-2col .isotope-item,
+.isotope-layout.grid-2col .isotope-item-sizer {
+  width: 50%;
+}
+
+.isotope-layout.grid-3 .isotope-item,
+.isotope-layout.grid-3 .isotope-item-sizer,
+.isotope-layout.grid-3col .isotope-item,
+.isotope-layout.grid-3col .isotope-item-sizer {
+  width: 33.333333%;
+}
+
+.isotope-layout.grid-4 .isotope-item,
+.isotope-layout.grid-4 .isotope-item-sizer,
+.isotope-layout.grid-4col .isotope-item,
+.isotope-layout.grid-4col .isotope-item-sizer {
+  width: 25%;
+}
+
+.isotope-layout.grid-5 .isotope-item,
+.isotope-layout.grid-5 .isotope-item-sizer,
+.isotope-layout.grid-5col .isotope-item,
+.isotope-layout.grid-5col .isotope-item-sizer {
+  width: 20%;
+}
+
+.isotope-layout.grid-6 .isotope-item,
+.isotope-layout.grid-6 .isotope-item-sizer,
+.isotope-layout.grid-6col .isotope-item,
+.isotope-layout.grid-6col .isotope-item-sizer {
+  width: 16.666667%;
+}
+
+.tm-swiper-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Do not apply isotope float/width rules to Swiper slides — Swiper sets sizes via JS */
+.tm-swiper-container .swiper-container-inner,
+.tm-swiper-container .swiper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.tm-swiper-container .swiper-wrapper {
+  display: flex;
+  box-sizing: content-box;
+}
+
+.tm-swiper-container .swiper-slide {
+  float: none;
+  flex-shrink: 0;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.isotope-layout-filter a {
+  cursor: pointer;
+}

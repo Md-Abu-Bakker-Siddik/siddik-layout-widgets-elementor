@@ -1,0 +1,89 @@
+.tm-info-box-skin6 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.tm-info-box-skin6 .info-box-wrapper {
+  position: relative;
+  display: block;
+  padding: 55px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0px 10px 40px 0px rgba(22, 32, 60, 0.08);
+  transition: all 500ms ease;
+}
+.tm-info-box-skin6 .info-box-wrapper .icon-wrapper {
+  position: relative;
+  color: #232226;
+  font-size: 64px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+.tm-info-box-skin6 .info-box-wrapper .icon-wrapper .info-text .title {
+  margin: 20px 0 30px;
+}
+.tm-info-box-skin6 .info-box-wrapper .icon-wrapper:before {
+  background-color: var(--theme-color1);
+  border-radius: 50%;
+  content: "";
+  height: 58px;
+  right: 30px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+.tm-info-box-skin6 .info-box-wrapper .icon-wrapper:after {
+  background-color: #232226;
+  border-radius: 50%;
+  content: "";
+  height: 15px;
+  right: 70px;
+  position: absolute;
+  top: 15px;
+  width: 15px;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+.tm-info-box-skin6 .info-box-wrapper:after {
+  content: "";
+  background: var(--theme-color1);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  opacity: 0.4;
+  z-index: -1;
+  transform: translate(0, 0);
+  transition: 500ms;
+}
+.tm-info-box-skin6 .info-box-wrapper:hover {
+  background: var(--theme-color1);
+}
+.tm-info-box-skin6 .info-box-wrapper:hover .icon-wrapper:before {
+  background-color: #fff;
+  transform: scaleX(-1);
+}
+.tm-info-box-skin6 .info-box-wrapper:hover .title {
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  transition: all 500ms ease;
+}
+.tm-info-box-skin6 .info-box-wrapper:hover .title a {
+  color: #ffffff;
+}
+.tm-info-box-skin6 .info-box-wrapper:hover .text {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.tm-info-box-skin6 .info-box-wrapper:hover:after {
+  height: 100%;
+  top: 0;
+  transform: translate(-12px, 12px);
+  z-index: 0;
+}

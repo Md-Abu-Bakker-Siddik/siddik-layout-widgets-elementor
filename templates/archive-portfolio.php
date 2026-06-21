@@ -1,0 +1,12 @@
+<?php
+/**
+ * Portfolio archive fallback (theme-compatible filename).
+ *
+ * @package SiddikLayoutWidgetsElementor
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+require UNIQUE_ADDONS_ABS_PATH . 'templates/archive-uae_portfolio.php';

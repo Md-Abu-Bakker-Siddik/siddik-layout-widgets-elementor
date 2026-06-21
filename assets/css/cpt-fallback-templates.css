@@ -1,0 +1,49 @@
+/**
+ * Minimal styles for plugin-provided CPT fallback templates.
+ * These styles are scoped and do not replace theme layout/styles.
+ */
+
+.uae-cpt-template {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+
+.uae-portfolio-item__header,
+.uae-portfolio-archive__header {
+	margin-bottom: 2rem;
+}
+
+.uae-portfolio-item__thumbnail {
+	margin: 1.5rem 0;
+}
+
+.uae-portfolio-item__thumbnail img,
+.uae-portfolio-archive__thumb img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.uae-portfolio-archive__grid,
+.uae-project-archive__grid {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.uae-portfolio-archive__title,
+.uae-project-archive__title {
+	font-size: 1.25rem;
+	margin: 1rem 0 0.5rem;
+}
+
+.uae-portfolio-archive__excerpt,
+.uae-project-archive__excerpt {
+	color: inherit;
+	opacity: 0.85;
+}
+
+.uae-template-part {
+	width: 100%;
+}

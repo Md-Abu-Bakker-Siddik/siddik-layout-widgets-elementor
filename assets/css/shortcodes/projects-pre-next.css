@@ -1,0 +1,37 @@
+.single-post-next-prev-links {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-post-next-prev-links .nav-next a,
+.single-post-next-prev-links .nav-previous a {
+  font-size: 16px;
+  font-family: var(--heading-font-family);
+  font-weight: var(--headings-font-weight-h5);
+}
+.single-post-next-prev-links .nav-next a:hover,
+.single-post-next-prev-links .nav-previous a:hover {
+  color: var(--theme-color1);
+}
+.single-post-next-prev-links .nav-next a span:after, .single-post-next-prev-links .nav-next a span:before,
+.single-post-next-prev-links .nav-previous a span:after,
+.single-post-next-prev-links .nav-previous a span:before {
+  content: "";
+  font-family: "linearicons-free";
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  top: -1px;
+  color: var(--theme-color1);
+}
+.single-post-next-prev-links .nav-previous a span:before {
+  content: "\e875";
+  padding-right: 13px;
+}
+.single-post-next-prev-links .nav-next a span:after {
+  content: "\e876";
+  padding-left: 13px;
+}

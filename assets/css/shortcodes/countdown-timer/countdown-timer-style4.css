@@ -1,0 +1,39 @@
+.countdown-timer-style4 {
+  position: relative;
+}
+.countdown-timer-style4 .countdown-timer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.countdown-timer-style4 .countdown-timer .counter {
+  position: relative;
+  background-color: #f7f7f7;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.countdown-timer-style4 .countdown-timer .counter .value {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+}
+.countdown-timer-style4 .countdown-timer .counter .label {
+  position: relative;
+  margin-bottom: 7px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--headings-color);
+}

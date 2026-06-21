@@ -1,0 +1,6 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+<img src="<?php $image = wp_get_attachment_image_src( $image_icon['id'], $image_icon_predefined_image_size); echo esc_url( $image[0] );?>" width="<?php echo esc_attr( $image[1] );?>" height="<?php echo esc_attr( $image[2] );?>" alt="<?php esc_attr_e( 'image', 'siddik-layout-widgets-elementor'); ?>">

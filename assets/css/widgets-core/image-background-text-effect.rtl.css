@@ -1,0 +1,36 @@
+.tm-image-background-text-effect {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.tm-image-background-text-effect > * {
+  font-size: 3rem;
+  -webkit-text-stroke-width: 1.1px;
+  -webkit-text-stroke-color: #070707;
+}
+
+.bg-animation-yes .tm-image-background-text-effect {
+  animation: textImgMoving 20s linear infinite;
+}
+
+.bg-animation-dir-rtl .tm-image-background-text-effect {
+  animation-name: textImgMovingRTL;
+}
+
+@keyframes textImgMoving {
+  from {
+    background-position: 100% center;
+  }
+  to {
+    background-position: 2000px center;
+  }
+}
+@keyframes textImgMovingRTL {
+  from {
+    background-position: 2000px center;
+  }
+  to {
+    background-position: 100% center;
+  }
+}

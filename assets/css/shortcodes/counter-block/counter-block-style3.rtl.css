@@ -1,0 +1,26 @@
+.counter-block-three {
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: inherit;
+  transition: all 0.4s ease-in-out;
+  flex-direction: column;
+  width: 312px;
+  height: 312px;
+  background-color: var(--theme-color3);
+}
+.counter-block-three .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--theme-color1);
+  margin-bottom: 15px;
+}
+.counter-block-three .counter {
+  color: #fff;
+  margin: 0;
+}
+.counter-block-three .title {
+  color: #7e8596;
+}

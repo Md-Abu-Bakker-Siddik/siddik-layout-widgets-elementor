@@ -1,0 +1,96 @@
+@keyframes rotateme {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+.tm-circle-text {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+.tm-circle-text span {
+  position: relative;
+  font-size: 22px;
+  display: inline-block;
+}
+.tm-circle-text span {
+  animation-name: rotateme;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotateme;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateme;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateme;
+  -ms-animation-duration: 15s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: rotateme;
+  -o-animation-duration: 15s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.tm-circle-text .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  z-index: 1;
+}
+.tm-circle-text .icon i {
+  font-size: 36px;
+}
+.tm-circle-text .icon .inner-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+  padding: 10px;
+  animation: none;
+  transform: none;
+}
+.tm-circle-text .icon .video-popup-link,
+.tm-circle-text .icon .lightgallery-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.tm-circle-text .icon .video-popup-link i,
+.tm-circle-text .icon .lightgallery-trigger i {
+  font-size: 36px;
+  transition: transform 0.3s ease;
+}
+.tm-circle-text .icon .video-popup-link:hover i,
+.tm-circle-text .icon .lightgallery-trigger:hover i {
+  transform: scale(1.2);
+}
+.tm-circle-text .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

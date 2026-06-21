@@ -1,0 +1,44 @@
+.tm-header-wishlist {
+  width: 50px;
+  height: 50px;
+  background: #eddbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.tm-header-wishlist .header-wishlist {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.tm-header-wishlist .header-wishlist:hover i {
+  color: #111;
+}
+.tm-header-wishlist .header-wishlist i {
+  font-size: 23px;
+  line-height: 1;
+  vertical-align: middle;
+  color: #222;
+  transition: all 0.3s ease;
+}
+.tm-header-wishlist .header-wishlist .count {
+  min-width: 18px;
+  height: 18px;
+  line-height: 19px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  transition: all 0.3s ease;
+  color: var(--theme-color1-text-color);
+  background-color: var(--theme-color1);
+}
+
+.hide-count-wishlist-yes .tm-header-wishlist .header-wishlist .count {
+  display: none;
+}

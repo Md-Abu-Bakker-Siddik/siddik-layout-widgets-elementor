@@ -1,0 +1,48 @@
+/*
+ * Shortcode: rotated-text.scss
+ * -----------------------------------------------
+*/
+.elementor-editor-active .elementor-widget-tm-ele-rotated-text {
+  min-height: 30px;
+  background-color: #cb9494;
+}
+
+.tm-sc-rotated-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  transition: all 0.3s ease;
+}
+.tm-sc-rotated-text .text-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.tm-sc-rotated-text .text-wrapper .text-holder {
+  font-size: 12rem;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 2px #c2c0bd;
+  transition: all 0.3s ease;
+}
+.tm-sc-rotated-text .text-wrapper .text-holder .text {
+  transition: all 0.3s ease;
+}
+.tm-sc-rotated-text .text-wrapper .text-holder {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  transform-origin: bottom right;
+  white-space: nowrap;
+}
+.tm-sc-rotated-text.writing-mode-vertical {
+  writing-mode: vertical-rl;
+}

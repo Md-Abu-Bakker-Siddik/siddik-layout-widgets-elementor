@@ -1,0 +1,35 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+
+<!-- Testimonial Block Style1-->
+<?php $testimonial_item['settings'] = $settings; ?>
+<?php
+$testimonial_item['name_tag'] = $name_tag;
+$testimonial_item['position_tag'] = $position_tag;
+$testimonial_item['title_tag'] = $title_tag;
+?>
+<div class="testimonial-block testimonial-block-style6">
+  <div class="inner-box">
+    <div class="icon-box">
+      <i class="icon flaticon-common-right-quote"></i>
+    </div>
+    <?php unique_addons_get_shortcode_template_part( 'part-author-text', null, 'testimonial-block/tpl', $testimonial_item, false ); ?>
+    <div class="rating-box">
+      <div class="info-box">
+        <div class="user-thumb">
+          <?php unique_addons_get_shortcode_template_part( 'part-thumb', null, 'testimonial-block/tpl', $testimonial_item, false );?>
+        </div>
+        <div class="user-info">
+          <?php unique_addons_get_shortcode_template_part( 'part-name', null, 'testimonial-block/tpl', $testimonial_item, false );?>
+          <?php unique_addons_get_shortcode_template_part( 'part-position', null, 'testimonial-block/tpl', $testimonial_item, false );?>
+        </div>
+      </div>
+      <div class="rating">
+        <?php unique_addons_get_shortcode_template_part( 'part-star-rating', null, 'testimonial-block/tpl', $testimonial_item, false );?>
+      </div>
+    </div>
+  </div>
+</div>

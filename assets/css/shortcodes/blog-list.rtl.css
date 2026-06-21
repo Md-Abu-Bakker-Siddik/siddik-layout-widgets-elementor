@@ -1,0 +1,9 @@
+.tm-widget-blog-list .entry-title a {
+  color: #bbb;
+}
+.tm-widget-blog-list .entry-title a:hover {
+  color: var(--theme-color1);
+}
+.tm-widget-blog-list .entry-meta i {
+  display: none;
+}

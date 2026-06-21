@@ -1,0 +1,7 @@
+/**
+ * RTL overrides for shared layout rules (mirrors uae-layouts.css).
+ */
+
+.isotope-layout .isotope-item {
+  float: right;
+}

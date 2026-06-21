@@ -1,0 +1,106 @@
+.tm-info-box-skin9 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.tm-info-box-skin9 .info-box-wrapper {
+  background-color: #fff;
+  padding: 60px 40px 55px 40px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px rgba(5, 5, 5, 0.08);
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.tm-info-box-skin9 .info-box-wrapper:after {
+  content: "";
+  background: url(../../../../assets/images/current-theme/info-box-circle.png) no-repeat;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  height: 115px;
+  width: 115px;
+  z-index: 999;
+  opacity: 0.1;
+}
+.tm-info-box-skin9 .info-box-wrapper .top-circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 170px;
+  height: 170px;
+  background: #ffffff;
+  opacity: 0.1;
+  transform: translate(60%, -60%);
+  z-index: 0;
+  border-radius: 50%;
+  transition: all 0.4s ease 0.2s;
+}
+.tm-info-box-skin9 .info-box-wrapper .bottom-circle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 170px;
+  height: 170px;
+  background: #ffffff;
+  opacity: 0.1;
+  transform: translate(-85%, 85%);
+  z-index: 0;
+  border-radius: 50%;
+  transition: all 0.4s ease 0.2s;
+}
+.tm-info-box-skin9 .info-box-wrapper .icon-wrapper {
+  position: relative;
+  background: var(--theme-color1);
+  color: #fff;
+  font-size: 64px;
+  padding: 20px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  border-radius: 58% 90% 66% 68%;
+  transition: all 0.3s ease-in-out;
+}
+.tm-info-box-skin9 .info-box-wrapper:hover {
+  background: var(--theme-color1);
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .top-circle {
+  transform: translate(40%, -40%);
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .bottom-circle {
+  transform: translate(-30%, 30%) skewX(44deg);
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .icon-wrapper {
+  color: #fff;
+  background: var(--theme-color2);
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .icon-wrapper i::before {
+  color: var(--headings-color);
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .title {
+  color: #ffffff;
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .title a {
+  color: #ffffff;
+}
+.tm-info-box-skin9 .info-box-wrapper:hover .text {
+  color: #fff;
+}
+.tm-info-box-skin9 .text {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+.tm-info-box-skin9 .link-box {
+  position: absolute;
+  right: 3px;
+  bottom: 8px;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.tm-info-box-skin9 .link-box a {
+  position: relative;
+  line-height: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}

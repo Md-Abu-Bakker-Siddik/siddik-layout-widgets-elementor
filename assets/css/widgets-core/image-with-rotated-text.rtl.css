@@ -1,0 +1,74 @@
+/*
+ * Shortcode: image-with-rotated-text.scss
+ * -----------------------------------------------
+*/
+.tm-sc-image-with-rotated-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  transition: all 0.3s ease;
+}
+.tm-sc-image-with-rotated-text .image-text-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.tm-sc-image-with-rotated-text .image-text-wrapper .image-inner {
+  overflow: hidden;
+}
+.tm-sc-image-with-rotated-text .image-text-wrapper .image-inner img {
+  transform: scale(1);
+  transition: 1s;
+}
+.tm-sc-image-with-rotated-text .image-text-wrapper .text-holder {
+  font-size: 12rem;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 2px #c2c0bd;
+  transition: all 0.3s ease;
+}
+.tm-sc-image-with-rotated-text .image-text-wrapper .text-holder .text {
+  transition: all 0.3s ease;
+}
+.tm-sc-image-with-rotated-text.text-position-top-left .text-holder, .tm-sc-image-with-rotated-text.text-position-bottom-left .text-holder {
+  right: 18px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  transform-origin: bottom right;
+  white-space: nowrap;
+}
+.tm-sc-image-with-rotated-text.text-position-top-left .text-holder {
+  bottom: 74px;
+}
+.tm-sc-image-with-rotated-text.text-position-bottom-left .text-holder {
+  bottom: -29px;
+}
+.tm-sc-image-with-rotated-text.text-position-top-right .text-holder, .tm-sc-image-with-rotated-text.text-position-bottom-right .text-holder {
+  position: relative;
+  right: auto;
+  float: left;
+  left: -152px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  white-space: nowrap;
+}
+.tm-sc-image-with-rotated-text.text-position-bottom-right .text-holder {
+  bottom: 42px;
+}
+.tm-sc-image-with-rotated-text.text-position-top-right .text-holder {
+  bottom: 18.2%;
+  position: absolute;
+}

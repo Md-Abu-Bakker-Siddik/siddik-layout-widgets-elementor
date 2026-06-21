@@ -1,0 +1,89 @@
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn {
+  position: relative;
+  padding: 10px 10px;
+  padding-right: 100px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  min-height: 90px;
+  margin-bottom: 20px;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 991.98px) {
+  .tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:after, .tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn::before {
+    display: none;
+  }
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn .sub-icon {
+  margin-right: 10px;
+  font-size: 12px;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:hover {
+  color: #fff;
+  background-color: var(--theme-color1);
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:hover .icon {
+  background-color: var(--theme-color4);
+  color: #fff;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:hover:before {
+  background-color: var(--theme-color4);
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn.active-btn {
+  color: #fff;
+  background-color: var(--theme-color1);
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn.active-btn .icon {
+  background-color: var(--theme-color4);
+  color: #fff;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn.active-btn:before {
+  background-color: var(--theme-color4);
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn.active-btn:after {
+  border-right: 20px solid var(--theme-color4);
+  opacity: 1;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:before {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  content: "";
+  height: 74px;
+  margin-top: -37px;
+  width: 5px;
+  background-color: var(--theme-color1);
+  transition: all 300ms ease;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn:after {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -37px;
+  margin-right: 5px;
+  content: "";
+  border-top: 37px solid transparent;
+  border-bottom: 37px solid transparent;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+.tm-interactive-tabs.tabs-skin-style1 .tab-buttons .tab-btn .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme-color1);
+  font-size: 36px;
+  transition: all 300ms ease;
+}

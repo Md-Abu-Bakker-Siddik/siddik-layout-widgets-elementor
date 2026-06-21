@@ -1,0 +1,22 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+ $features_item['settings'] = $settings; ?>
+<?php
+$features_item['title_tag'] = $title_tag;
+$features_item['subtitle_tag'] = $subtitle_tag;
+?>
+
+<div class="features-block-style16">
+  <div class="inner-box">
+    <div class="icon-box">
+      <span class="count"><?php echo esc_html( $features_item['count'] ); ?></span>
+      <div class="icon">
+        <?php unique_addons_get_shortcode_template_part( 'icon-type', $features_item['icon_type'], 'features-block/tpl', $features_item, false );?>
+      </div>
+    </div>
+    <?php unique_addons_get_shortcode_template_part( 'part-title', null, 'features-block/tpl', $features_item, false );?>
+    <?php unique_addons_get_shortcode_template_part( 'part-content', null, 'features-block/tpl', $features_item, false );?>
+  </div>
+</div>

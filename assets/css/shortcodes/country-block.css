@@ -1,0 +1,171 @@
+.country-block-current-item-style1 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 0px 35px rgba(0, 0, 0, 0.07);
+}
+.country-block-current-item-style1 .inner-box {
+  position: relative;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.country-block-current-item-style1 .inner-box .image-box {
+  position: relative;
+}
+.country-block-current-item-style1 .inner-box .image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.country-block-current-item-style1 .inner-box .image img {
+  width: 100%;
+  transition: all 300ms ease;
+}
+.country-block-current-item-style1 .inner-box .content-box {
+  position: relative;
+  padding: 0 40px 35px;
+  z-index: 0;
+  transition: all 600ms ease;
+}
+.country-block-current-item-style1 .inner-box .content-box::before {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  height: 94px;
+  width: 100%;
+  overflow: hidden;
+  clip-path: ellipse(60% 50% at 50% 50%);
+  background: #ffffff;
+  content: "";
+  z-index: -1;
+}
+.country-block-current-item-style1 .inner-box .content-box .flag {
+  position: relative;
+  display: block;
+  margin: -48px auto 15px;
+  height: 57px;
+  width: 57px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  transition: all 300ms ease;
+  z-index: 2;
+}
+.country-block-current-item-style1 .inner-box .content-box .flag:hover {
+  background-color: var(--bg-theme-color1);
+  color: var(--theme-color2);
+}
+.country-block-current-item-style1 .inner-box .content-box .feature-title {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.country-block-current-item-style1 .inner-box .content-box .feature-title a:hover {
+  color: var(--theme-color2);
+}
+.country-block-current-item-style1 .inner-box:hover .image img {
+  transform: scale(1.1);
+}
+
+.country-block-current-item-style2 {
+  position: relative;
+}
+.country-block-current-item-style2 .inner-box {
+  position: relative;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.country-block-current-item-style2 .inner-box .flag {
+  position: relative;
+  display: block;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  transition: all 300ms ease;
+  margin: 0 auto -65px;
+  z-index: 2;
+}
+.country-block-current-item-style2 .inner-box .flag img {
+  transition: all 300ms ease;
+}
+.country-block-current-item-style2 .inner-box .flag:hover {
+  background-color: var(--theme-color2);
+  color: var(--theme-color1);
+}
+.country-block-current-item-style2 .inner-box .info {
+  position: relative;
+  background-color: #ffffff;
+  padding: 80px 15px 25px;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.08);
+}
+.country-block-current-item-style2 .inner-box .feature-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.country-block-current-item-style2 .inner-box .feature-title a:hover {
+  color: var(--theme-color1);
+}
+.country-block-current-item-style2 .inner-box:hover {
+  transform: translateY(-10px);
+}
+.country-block-current-item-style2 .inner-box:hover .flag {
+  transform: rotateY(180deg);
+}
+.country-block-current-item-style2 .inner-box:hover .flag img {
+  transform: scale(1.1);
+}
+
+.country-block-current-item-style3 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.country-block-current-item-style3 .inner-box {
+  position: relative;
+  background-color: #ffffff;
+  padding: 33px 33px;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 300ms ease;
+}
+.country-block-current-item-style3 .inner-box .content {
+  position: relative;
+  padding-left: 75px;
+}
+.country-block-current-item-style3 .inner-box .content .flag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 57px;
+  width: 57px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.country-block-current-item-style3 .inner-box .content .flag img {
+  width: 100%;
+  transition: all 300ms ease;
+}
+.country-block-current-item-style3 .inner-box .content .feature-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.country-block-current-item-style3 .inner-box .content .feature-title a:hover {
+  color: var(--theme-color1);
+}
+.country-block-current-item-style3 .inner-box .content .feature-details {
+  margin-bottom: 0;
+}
+.country-block-current-item-style3 .inner-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.country-block-current-item-style3 .inner-box:hover .flag img {
+  transform: rotate(360deg);
+}
